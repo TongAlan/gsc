@@ -1,1 +1,16 @@
+# General
 node_modules/
+.next/
+out/
+.env.local
+.DS_Store
+Thumbs.db
+
+# Next.js specific
+next-env.d.ts
+.cache/
+public/build
+
+# Editor-specific
+.vscode/
+.idea/

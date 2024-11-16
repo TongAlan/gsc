@@ -11,7 +11,7 @@ const Navbar = () => {
 
     const navigation = [
         { title: "Pricing", path: "/prices" },
-        { title: "Services", path: "#services" },
+        { title: "Services", path: "/#services" },
     ]
 
     useEffect(() => {

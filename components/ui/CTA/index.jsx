@@ -16,7 +16,7 @@ const CTA = () => {
                             Who we are
                         </h2>
                         <p className="mt-3 text-gray-600">
-                            Giant Springs Consulting, a software development company, helps to digitalize and establish online presence. Headquarted in Great Falls, Montana, we have consultants with over 30 years of combined industry experience spanning across Montana, Washington, and Arizona.
+                            Giant Springs Consulting, a software development company, helps to digitalize and establish online presence. Headquartered in Great Falls, Montana, we have consultants with over 30 years of combined industry experience spanning across Montana, Washington, and Arizona.
                         </p>
                         <NavLink
                             href="/get-started"
