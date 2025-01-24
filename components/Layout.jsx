@@ -1,21 +1,24 @@
-import Head from "next/head"
-import Footer from "./ui/Footer"
-import Navbar from "./ui/Navbar"
+import Head from "next/head";
+import Footer from "./ui/Footer";
+import Navbar from "./ui/Navbar";
 
 const Layout = ({ children }) => {
-    return (
-        <>
-            <Head>
-                <title>Giant Springs Consulting</title>
-                <meta name='description' content='GSC making it simple for you to build and grow any business idea' />
-                <meta name='viewport' content='width=device-width, initial-scale=1' />
-                <link rel='icon' href='/favicon.ico' />
-            </Head>
-            <Navbar />
-            <main>{children}</main>
-            <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Head>
+        <title>Giant Springs Consulting</title>
+        <meta
+          name="description"
+          content="GSC making it simple for you to build and grow any business idea"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="logos/gsc-icon2.svg" />
+      </Head>
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
